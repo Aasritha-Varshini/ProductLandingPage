@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90vw;
+    }
+
+    .topleft, .topright {
+        width: 100%;
+        text-align: center;
+    }
+
+    #features .icon {
+        width: 100%;
+    }
+
+    .section1 {
+        max-height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section2 h1,
+    .section2 p {
+        padding: 0 5vw;
+    }
+
+    #hero {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    #hero input[type='email'] {
+        max-width: 100%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px auto;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    font-size: larger;
+}
+
+.topleft {
+    width: 100%; 
+}
+
+.topright {
+    width: 100%; 
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#hero > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+}
+
+#hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: rgb(227 74 56);
+}
+
+.section1 {
+    max-height: 100vh;
+    color: #711e15;
+}
+
+.section1 h1 {
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+#header-img {
+    width: 289px;
+}
+
+.topright .gymimg {
+    width: 466px;
+}
+
+.section2 {
+    padding: 73px;
+}
+
+.section2 h1 {
+    font-size: 2.3rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+#how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+#features {
+    margin-top: 30px;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.font-bold {
+    font-weight: bolder;
+}
+
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2 {
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue {
+    color: rgb(227 74 56);
+}
+
+.btn {
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227 74 56);
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
